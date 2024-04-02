@@ -62,9 +62,10 @@
 }
 
 body {
-    background-image: url("../img/background.jpeg");
+    background-image: url("../img/Wave\ Line.svg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 code {
@@ -78,4 +79,11 @@ code {
 
 .learnMoreButton:hover {
     transform: scale(1.15);
+}
+
+.glass {
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    background-color: rgba(26, 26, 26, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.125);
 }
