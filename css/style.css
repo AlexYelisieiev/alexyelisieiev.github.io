@@ -86,3 +86,8 @@ code {
     -webkit-backdrop-filter: blur(14px);
     background-color: rgba(26, 26, 26, 0.2);
 }
+
+.card-img-top {
+    max-height: 40vmin;
+    object-fit: contain;
+}
