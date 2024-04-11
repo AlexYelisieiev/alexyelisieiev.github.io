@@ -91,3 +91,12 @@ code {
     max-height: 40vmin;
     object-fit: contain;
 }
+
+.project-link-btn {
+    position: absolute;
+    transition-duration: 0.08s;
+}
+
+.project-link-btn:hover {
+    background-color: rgba(70, 70, 70, 0.589);
+}
