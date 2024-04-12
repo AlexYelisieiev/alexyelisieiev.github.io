@@ -73,8 +73,7 @@ code {
 }
 
 .learnMoreButton {
-    transition-property: transform;
-    transition-duration: 0.15s;
+    transition: transform 0.3s;
 }
 
 .learnMoreButton:hover {
