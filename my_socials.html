@@ -25,6 +25,30 @@
 </head>
 
 <body class="d-flex h-100" data-new-gr-c-s-check-loaded="14.1061.0" data-gr-ext-installed="">
+    <!-- Modal -->
+    <div class="modal fade glass" tabindex="-1" id="contactsModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content glass">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contacts</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start">
+                    <p>
+                        Email: <a class="text-decoration-none"
+                            href="mailto:alexander0402112@gmail.com">alexander0402112@gmail.com</a>
+                    </p>
+                    <p>
+                        Instagram: <a class="text-decoration-none" href="https://www.instagram.com/alex.yelisieiev/"
+                            target="_blank">@alex.yelisieiev</a><br>
+                        Telegram: <a class="text-decoration-none" href="https://t.me/alex_yelisieiev"
+                            target="_blank">@alex_yelisieiev</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
         <header class="container mb-auto fixed-top w-100 glass">
             <div class="d-flex justify-content-evenly flex-wrap py-3" style="border-top: none;">
@@ -33,7 +57,8 @@
                     <a class="nav-link fw-bold py-1 px-0" href="./index.html">About</a>
                     <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Socials</a>
                     <a class="nav-link fw-bold py-1 px-0" href="./my_projects.html">Projects</a>
-                    <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
+                    <button class="nav-link fw-bold py-1 px-0" data-bs-toggle="modal"
+                        data-bs-target="#contactsModal">Contacts</button>
                 </nav>
             </div>
         </header>
