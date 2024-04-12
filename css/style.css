@@ -72,11 +72,11 @@ code {
     color: #a1cdff;
 }
 
-.learnMoreButton {
+.myProjectsButton {
     transition: transform 0.3s;
 }
 
-.learnMoreButton:hover {
+.myProjectsButton:hover {
     transform: scale(1.15);
 }
 
