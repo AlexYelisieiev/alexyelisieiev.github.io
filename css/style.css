@@ -100,3 +100,25 @@ code {
 .project-link-btn:hover {
     background-color: rgba(70, 70, 70, 0.589);
 }
+
+.border-none {
+    border: none;
+}
+
+.bg-none {
+    background: none;
+}
+
+.social-card {
+    transition: transform 0.3s;
+}
+
+.social-card:hover {
+    transform: scale(1.07);
+}
+
+.social-icon {
+    height: 3.2rem;
+    width: 3.2rem;
+    filter: invert(100%);
+}
