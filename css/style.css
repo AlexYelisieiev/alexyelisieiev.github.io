@@ -88,7 +88,7 @@ code {
 
 .card-img-top {
     max-height: 40vmin;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .project-link-btn {
