@@ -72,12 +72,14 @@ code {
     color: #b1d6ff;
 }
 
-.myProjectsButton {
+.projectsButton {
     transition: transform 0.3s;
+    border: rgb(146, 197, 255) 1px solid;
 }
 
-.myProjectsButton:hover {
+.projectsButton:hover {
     transform: scale(1.15);
+    border: rgb(146, 197, 255) 1px solid;
 }
 
 .glass {
