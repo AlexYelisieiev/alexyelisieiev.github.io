@@ -74,7 +74,7 @@ code {
 
 .projectsButton {
     transition: transform 0.3s;
-    border: rgb(146, 197, 255) 1px solid;
+    border: rgba(146, 197, 255, 0.644) 1px solid;
 }
 
 .projectsButton:hover {
