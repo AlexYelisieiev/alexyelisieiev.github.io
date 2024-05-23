@@ -123,3 +123,7 @@ code {
     width: 2.5rem;
     filter: invert(100%);
 }
+
+.nav-link-ai {
+    color: #b1d6ff !important;
+}
