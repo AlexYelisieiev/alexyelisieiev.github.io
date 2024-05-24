@@ -20,7 +20,7 @@
 </head>
 
 <body class="d-flex h-100" data-new-gr-c-s-check-loaded="14.1061.0" data-gr-ext-installed="">
-    <!-- Modal -->
+    <!-- ---------------------- Contacts modal ----------------------- -->
     <div class="modal fade glass text-body" tabindex="-1" id="contactsModal">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content glass">
@@ -43,6 +43,31 @@
             </div>
         </div>
     </div>
+    <!-- ------------------------------------------------------------- -->
+    <!-- --------------------- AI caution modal ---------------------- -->
+    <div class="modal fade glass text-body" tabindex="-1" id="aiCautionModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content glass">
+                <div class="modal-header">
+                    <h5 class="modal-title text-warning">Caution!</h5>
+                </div>
+                <div class="modal-body text-start">
+                    <p>
+                        This AI version of me does not represent my opinions. <br>
+                        The AI can hallucinate and provide false information. <br>
+                        I am not responsible for anything it says. <br>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary bg-secondary-subtle" data-bs-dismiss="modal">Go
+                        back</button>
+                    <a class="btn btn-secondary bg-secondary border" target="_blank"
+                        href="https://character.ai/chat/VacurjxavFbwBwUVIxc2dWoDtPvJnbpRRV2Gvhh60vo">Talk to AI</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------- -->
 
     <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
         <header class="container mb-auto fixed-top w-100 glass">
@@ -56,9 +81,8 @@
                     <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Socials</a>
                     <button class="nav-link fw-bold py-1 px-0" data-bs-toggle="modal"
                         data-bs-target="#contactsModal">Contacts</button>
-                    <a class="nav-link nav-link-ai fw-bold py-1 px-0" target="_blank"
-                        href="https://character.ai/chat/VacurjxavFbwBwUVIxc2dWoDtPvJnbpRRV2Gvhh60vo">AI me</a>
-
+                    <button class="nav-link nav-link-ai fw-bold py-1 px-0" data-bs-toggle="modal"
+                        data-bs-target="#aiCautionModal">AI me</button>
                 </nav>
             </div>
         </header>
