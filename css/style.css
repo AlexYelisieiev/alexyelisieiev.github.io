@@ -74,12 +74,12 @@ code {
 
 .projectsButton {
     transition: transform 0.3s;
-    border: rgba(146, 197, 255, 0.644) 1px solid;
+    /* border: rgba(146, 197, 255, 0.644) 1px solid; */
 }
 
 .projectsButton:hover {
-    transform: scale(1.15);
-    border: rgb(146, 197, 255) 1px solid;
+    transform: scale(1.1);
+    /* border: rgb(146, 197, 255) 1px solid; */
 }
 
 .glass {
