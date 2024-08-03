@@ -62,7 +62,7 @@
 }
 
 body {
-    background-image: url("../img/personal_site/personal_site_background.svg");
+    background-image: url("../img/personal_site/wave-haikei.svg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -85,7 +85,8 @@ code {
 .glass {
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
-    background-color: rgba(26, 26, 26, 0.2);
+    /* background-color: rgba(26, 26, 26, 0.2); */
+    background-color: rgba(26, 26, 26, 0.103);
 }
 
 .card-img-top {
@@ -126,4 +127,31 @@ code {
 
 .nav-link-ai {
     color: #b1d6ff !important;
+}
+
+.small-link-btn {
+    background-color: rgba(0, 0, 0, 0.596);
+}
+
+.small-link-btn:hover {
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+.small-link-btn:active {
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+.custom-dark-btn {
+    background-color: rgba(0, 0, 0, 0.596);
+    transition: all 0.3s;
+}
+
+.custom-dark-btn:hover {
+    background-color: rgba(0, 0, 0, 0.747);
+    transform: scale(1.1);
+}
+
+.custom-dark-btn:active {
+    background-color: rgba(0, 0, 0, 0.747);
+    transform: scale(1.1);
 }
