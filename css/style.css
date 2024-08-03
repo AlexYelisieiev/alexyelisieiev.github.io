@@ -95,12 +95,8 @@ code {
 }
 
 .project-link-btn {
-    position: absolute;
-    transition-duration: 0.08s;
-}
-
-.project-link-btn:hover {
-    background-color: rgba(70, 70, 70, 0.589);
+    background-color: rgba(0, 0, 0, 0.596);
+    transition: all 0.3s;
 }
 
 .border-none {
