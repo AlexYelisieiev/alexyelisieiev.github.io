@@ -86,7 +86,7 @@ code {
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
     /* background-color: rgba(26, 26, 26, 0.2); */
-    background-color: rgba(26, 26, 26, 0.103);
+    /* background-color: rgba(26, 26, 26, 0.103); */
 }
 
 .card-img-top {
@@ -150,4 +150,10 @@ code {
 .custom-dark-btn:active {
     background-color: rgba(0, 0, 0, 0.747);
     transform: scale(1.1);
+}
+
+.card{
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    background-color: rgba(12, 12, 12, 0.534);
 }
